@@ -11,6 +11,7 @@ export default eventHandler(async (event) => {
 	return new Promise((resolve, reject) => {
 		pool.query('SELECT * FROM tbsecao', (error, results) => {
 			if (error) return reject(error);
+			console.log(results)
 			resolve(results);
 		});
 	});
