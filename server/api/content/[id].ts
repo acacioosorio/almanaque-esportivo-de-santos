@@ -9,7 +9,6 @@ const pool = createPool({
 });
 
 export default defineEventHandler(async (event) => {
-	// Extracting 'id' from URL parameters
 	const { id } = event.context.params;
 
 	console.log(id)
