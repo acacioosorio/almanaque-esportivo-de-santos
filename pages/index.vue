@@ -22,13 +22,10 @@ onMounted(() => {
 
 <template>
 	<div>
-		<pre>
-			{{ categorias }}
-		</pre>
-		<!-- <ul>
+		<ul>
 			<li v-for="categoria in categorias" :key="categoria.id">
 				<nuxt-link :to="'/content/' + categoria.id">{{ categoria.nome }}</nuxt-link>
 			</li>
-		</ul> -->
+		</ul>
 	</div>
 </template>
