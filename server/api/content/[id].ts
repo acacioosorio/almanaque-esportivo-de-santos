@@ -2,10 +2,10 @@ import { defineEventHandler } from 'h3'
 import { createPool } from 'mysql2'
 
 const pool = createPool({
-	host: process.env.DB_HOST,
-	user: process.env.DB_USER,
-	password: process.env.DB_PASSWORD,
-	database: process.env.DB_NAME
+	host: "bdaeswp.mysql.dbaas.com.br",
+	user: "bdaeswp",
+	password: "FW@4dm@t3st3",
+	database: "bdaeswp"
 });
 
 export default defineEventHandler(async (event) => {
