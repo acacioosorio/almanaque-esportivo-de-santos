@@ -1,4 +1,3 @@
-import { defineEventHandler } from 'h3'
 import { createPool } from 'mysql2'
 
 const pool = createPool({
@@ -8,7 +7,7 @@ const pool = createPool({
 	database: process.env.DB_NAME
 });
 
-export default defineEventHandler(async (event) => {
+export default eventHandler(async (event) => {
 	return new Promise((resolve, reject) => {
 		pool.query('SELECT * FROM tbsecao', (error, results) => {
 			if (error) return reject(error);
