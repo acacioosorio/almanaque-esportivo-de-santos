@@ -2,10 +2,6 @@
 const categoriesStore = useCategoriesStore();
 const { categoriesList } = storeToRefs(categoriesStore);
 
-onMounted(() => {
-	if(categoriesList.value.length <= 0) categoriesStore.fetchCategories();
-})
-
 </script>
 
 <template>
