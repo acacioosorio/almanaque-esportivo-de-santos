@@ -11,7 +11,7 @@ onMounted(() => {
 })
 
 const changeRoute = () => {
-	router.push('/content/' + category.value.id)
+	if(category != {}) router.push('/content/' + category.value.id)
 }
 
 </script>
