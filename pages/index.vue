@@ -1,21 +1,9 @@
 <script setup>
-import { useAsyncData } from 'nuxt/app';
-import { useFetch } from '#imports';
-
-const categorias = ref([]);
-
-const fetchCategories = async () => {
-	try {
-		let { data } = await useFetch('/api/categories');
-		console.log(data)
-		categorias.value = data;
-	} catch (err) {
-		console.log(err)
-	}
-}
+const categoriesStore = useCategoriesStore();
+const { categoriesList } = storeToRefs(categoriesStore);
 
 onMounted(() => {
-	fetchCategories()
+	if(categoriesList.value.length <= 0) categoriesStore.fetchCategories();
 })
 
 </script>
@@ -23,8 +11,8 @@ onMounted(() => {
 <template>
 	<div>
 		<ul>
-			<li v-for="categoria in categorias" :key="categoria.id">
-				<nuxt-link :to="'/content/' + categoria.id">{{ categoria.nome }}</nuxt-link>
+			<li v-for="categoria in categoriesList" :key="categoria.id">
+				<nuxt-link :to="'/content/' + categoria.id">{{ categoria.id }} - {{ categoria.nome }}</nuxt-link>
 			</li>
 		</ul>
 	</div>
