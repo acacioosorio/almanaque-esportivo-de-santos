@@ -24,7 +24,7 @@ onMounted(() => {
 
 	<article class="card mb-5" v-for="details in content">
 		<div class="card-body">
-			<h1 class="h4">{{ details.titulo }}</h1>
+			<h1 class="h4">{{ details.id }} - {{ details.titulo }}</h1>
 			<p v-html="details.resumo"></p>
 			<div v-html="details.texto"></div>
 		</div>
