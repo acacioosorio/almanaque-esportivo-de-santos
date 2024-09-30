@@ -1,0 +1,30 @@
+{
+	"layouts": {
+		"title": "Exitlag - 게임의 랙을 제거하세요!"
+	},
+	"header": {
+		"nav": {
+			"how_it_works": "작동 방식",
+			"games": "게임",
+			"pricing": "가격",
+			"affiliates": "제휴사",
+			"download": "다운로드",
+			"faq": "도움말 센터",
+			"trial": "체험판",
+			"blog": "블로그"
+		}
+	},
+	"affiliate": {
+		"title": "제휴사 - Exitlag",
+		"hero": {
+			"title": "제휴사가 되세요",
+			"subtitle": "제휴사가 되어 당신의 $에 <strong>부스트를 주세요</strong>",
+			"text": "<strong>즉시 승인 - 링크를 사용하여 홍보를 시작하세요!</strong> 게임에 대한 열정을 실제 수익으로 바꾸세요. 연결 문제를 해결하고 구독당 20%의 수수료를 받으세요.*",
+			"detail": "*비율은 언제든지 조정될 수 있습니다.",
+			"cta": "시작 버튼 누르기"
+		}
+	},
+	"pricing": {
+		"title": "가격 - Exitlag"
+	}
+}

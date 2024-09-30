@@ -1,0 +1,30 @@
+{
+	"layouts": {
+		"title": "Exitlag - Beende das Lag in deinem Spiel!"
+	},
+	"header": {
+		"nav": {
+			"how_it_works": "Wie es funktioniert",
+			"games": "Spiele",
+			"pricing": "Preise",
+			"affiliates": "Partnerprogramme",
+			"download": "Herunterladen",
+			"faq": "Hilfezentrum",
+			"trial": "Testversion",
+			"blog": "Blog"
+		}
+	},
+	"affiliate": {
+		"title": "Partnerprogramm - Exitlag",
+		"hero": {
+			"title": "Werden Sie ein Affiliate",
+			"subtitle": "Werden Sie ein Affiliate und geben Sie Ihrem $ einen <strong>Boost</strong>",
+			"text": "<strong>Sofortige Freigabe - Nutzen Sie Ihren Link und beginnen Sie mit der Promotion!</strong> Verwandeln Sie Ihre Leidenschaft für Spiele in echte Einnahmen. Helfen Sie, Verbindungsprobleme zu lösen, und verdienen Sie 20 % Provision pro Abonnement.*",
+			"detail": "*Der Prozentsatz kann jederzeit angepasst werden.",
+			"cta": "Start drücken"
+		}
+	},
+	"pricing": {
+		"title": "Preise - Exitlag"
+	}
+}

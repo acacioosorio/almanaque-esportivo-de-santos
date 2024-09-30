@@ -1,0 +1,30 @@
+{
+	"layouts": {
+		"title": "Exitlag - 消除游戏延迟！"
+	},
+	"header": {
+		"nav": {
+			"how_it_works": "如何运作",
+			"games": "游戏",
+			"pricing": "价格",
+			"affiliates": "合作伙伴",
+			"download": "下载",
+			"faq": "帮助中心",
+			"trial": "试用",
+			"blog": "博客"
+		}
+	},
+	"affiliate": {
+		"title": "联盟伙伴 - Exitlag",
+		"hero": {
+			"title": "成为联盟伙伴",
+			"subtitle": "成为联盟伙伴，给你的$一个<strong>提升</strong>",
+			"text": "<strong>立即批准 - 使用您的链接开始推广！</strong> 将您对游戏的热情转化为实际收益。帮助解决连接问题，每次订阅可获得20%的佣金。*",
+			"detail": "*百分比可能随时调整。",
+			"cta": "按下开始"
+		}
+	},
+	"pricing": {
+		"title": "价格 - Exitlag"
+	}
+}

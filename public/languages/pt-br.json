@@ -1,0 +1,38 @@
+{
+	"layouts": {
+		"title": "Exitlag - Acabe com o Lag do seu jogo!"
+	},
+	"header": {
+		"nav": {
+			"how_it_works": "Como funciona",
+			"games": "Jogos",
+			"pricing": "Preços",
+			"affiliates": "Afiliados",
+			"download": "Baixar",
+			"faq": "Centro de ajuda",
+			"trial": "Teste",
+			"blog": "Blog"
+		}
+	},
+	"affiliate": {
+		"title": "Afiliados - Exitlag",
+		"hero" : {
+			"title": "Seja um afiliado",
+			"subtitle": "Seja afiliado e dê um <strong>boost no seu $<strong>",
+			"text": "<strong>Aprovação Imediata - Use seu link e comece a divulgar!<strong> Transforme sua paixão por games em ganhos reais. Ajude a resolver problemas de conexão e ganhe 20% de comissão por assinatura.*",
+			"detail": "*A porcentagem pode ser ajustada a qualquer momento.",
+			"cta": "Aperte Start"
+		}
+	},
+	"pricing": {
+		"title": "Preços - Exitlag",
+		"description": "Melhorar o seu ping nunca foi necessário! Experimente o ExitLag e jogue com mais qualidade. Cadastre-se no site e teste gratuitamente por três dias",
+		"meta": {
+			"ogTitle": "Preços",
+			"ogDescription": "Melhorar o seu ping nunca foi tão fácil! Experimente o ExitLag e jogue com mais qualidade. Cadastre-se no site e teste gratuitamente por três dias",
+			"ogImage": "https://www.exitlag.com/templates/exit-lag/img/logo.svg",
+			"twitterCard": "summary ",
+			"canonicalUrl": ""
+		}
+	}
+}

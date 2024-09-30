@@ -1,0 +1,30 @@
+{
+	"layouts": {
+		"title": "Exitlag - Get Rid of Lag in Your Game!"
+	},
+	"header": {
+		"nav": {
+			"how_it_works": "How it works",
+			"games": "Games",
+			"pricing": "Pricing",
+			"affiliates": "Affiliates",
+			"download": "Download",
+			"faq": "Help Center",
+			"trial": "Trial",
+			"blog": "Blog"
+		}
+	},
+	"affiliate": {
+		"title": "Affiliates - Exitlag",
+		"hero": {
+			"title": "Become an Affiliate",
+			"subtitle": "Become an affiliate and give a <strong>boost to your $</strong>",
+			"text": "<strong>Immediate Approval - Use your link and start promoting!</strong> Turn your passion for games into real earnings. Help solve connection issues and earn 20% commission per subscription.*",
+			"detail": "*The percentage may be adjusted at any time.",
+			"cta": "Press Start"
+		}
+	},
+	"pricing": {
+		"title": "Pricing - Exitlag"
+	}
+}
